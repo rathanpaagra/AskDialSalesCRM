@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/askdialYellow</item>
+        <item name="colorPrimaryDark">@color/askdialYellow</item>
+        <item name="colorAccent">@color/askdialYellow</item>
+    </style>
+
+    <string name="spinner_title">Select Packages</string>
+    <string-array name="Packages">
+        <item>Select Packages</item>
+        <item>Starter</item>
+        <item>Premium</item>
+        <item>Corporate</item>
+    </string-array>
+
+</resources>

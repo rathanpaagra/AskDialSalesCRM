@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/cyan"
+    android:layout_height="match_parent"
+    tools:context="in.askdial.askdialsalescrm.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/Add_Costomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.21"
+            android:gravity="center"
+            android:background="@drawable/light_green_button"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:text="ADD Customer" />
+
+        <Button
+            android:id="@+id/My_Costomers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.21"
+            android:background="@drawable/light_green_button"
+            android:gravity="center"
+            android:text="My Customers"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/Pricing_Plans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.21"
+            android:background="@drawable/light_green_button"
+            android:gravity="center"
+            android:text="Pricing Plans"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+            //Find Current Location using latitude and longitude
+        <!--<Button
+            android:id="@+id/My_Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_weight="0.21"
+            android:background="@drawable/light_green_button"
+            android:gravity="center"
+            android:text="My Location"
+            android:textColor="@color/white"
+            android:textSize="30dp" />-->
+
+    </LinearLayout>
+
+
+</LinearLayout>

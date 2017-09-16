@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AskDial Sales CRM</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_quit">Quit</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="five_pages">5 Pages Search Engine Friendly
+                 Portfolio</string>
+    <string name="ten_products">Photo Gallery - 10 Product Photographs</string>
+    <string name="one_day"> Website Development in just 1 day</string>
+
+</resources>
